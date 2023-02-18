@@ -20,6 +20,16 @@ export default {
             hidden: true
         },
         {
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug',
+            description: 'Eindeutiger Name für die Subpage ohne Leerzeichen',
+            options: {
+                source: "title.de",
+                maxLength: 96,
+            },
+        },
+        {
             name: 'headline',
             title: 'Überschrift',
             type: 'localeString',
