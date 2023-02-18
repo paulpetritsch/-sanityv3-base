@@ -15,6 +15,10 @@ export default {
             name: 'datenschutz',
             title: 'Datenschutz',
         },
+        {
+            name: 'error',
+            title: 'Error',
+        },
     ],
     fields: [
         {
@@ -90,6 +94,12 @@ export default {
             title: 'Cookie Text',
             type: 'localeBlockContent',
             group: 'datenschutz',
+        },
+        {
+            name: 'errortext',
+            title: '404 Error Text',
+            type: 'localeString',
+            group: 'error',
         },
     ],
 
