@@ -11,6 +11,7 @@ export default (S) =>
                         .schemaType('startseite')
                         .documentId('startseite')
                 ),
+            ...S.documentTypeListItems().filter(item => ['subpages'].includes(item.getId())),
             S.divider(),
             S.listItem()
                 .title('Allgemeine Einstellungen').icon(FcSettings)

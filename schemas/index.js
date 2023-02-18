@@ -6,6 +6,7 @@ import settings from "./settings";
 import localeString from "../localizations/localeString";
 import localeBlockContent from "../localizations/localeBlockContent";
 import localeText from "../localizations/localeText";
+import subpages from "./subpages";
 
 export const schemaTypes = [
     startseite,
@@ -15,5 +16,6 @@ export const schemaTypes = [
     settings,
     localeString,
     localeBlockContent,
-    localeText
+    localeText,
+    subpages
 ]
